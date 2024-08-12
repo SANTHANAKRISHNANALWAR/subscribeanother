@@ -1,28 +1,32 @@
-@media (width <= 570px){
+@media (width <= 576px){
 
-/*     html{
-        font-size: 37%;
-    } */
+    html{
+        font-size: 45%;
+    }
 
     .grid1{
         grid-template-columns: 1fr;
     }
 
     .subsBody{
-        min-width: 50rem;
+        min-width: 38rem;
     }
 
-    /* .align{
-        max-width: 300px;
+    .align{
+        /* max-width: 300px; */
         margin: auto;
         padding: 0.5rem;
     }
 
     .minpad{
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
-    .subsBody{
+    .subsBox{
+        margin: 2rem 3rem;
+    }
+
+    /* .subsBody{
         padding: 3rem;
     } */
 
