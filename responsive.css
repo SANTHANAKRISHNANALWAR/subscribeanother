@@ -1,11 +1,15 @@
-@media (width <= 320px){
+@media (width <= 570px){
 
-    html{
+/*     html{
         font-size: 37%;
-    }
+    } */
 
     .grid1{
         grid-template-columns: 1fr;
+    }
+
+    .subsBody{
+        min-width: 50rem;
     }
 
     /* .align{
